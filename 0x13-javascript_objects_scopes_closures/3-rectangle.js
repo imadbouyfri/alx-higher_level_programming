@@ -1,4 +1,5 @@
 #!/usr/bin/node
+//Rectangle that defines a rectangle
 class Rectangle {
 	constructor (w, h) {
 		if (((w = parseInt(w)) > 0) && ((h = parseInt(h)) > 0)) {
